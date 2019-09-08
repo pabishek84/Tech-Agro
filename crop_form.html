@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TECH AGRO</title>
+
+	<style type="text/css">
+
+		body{
+			background-image: url(2.jpg);
+			background-size: 1560px;
+			position: relative;
+		}
+		section{
+			background-color: #f2f2f2 ;
+			width: 500px;
+			padding: 15px;
+			border-radius: 20px;
+
+
+		}
+		h1{
+			color:red;
+		}
+		input[type="number"],input[type="text"]{
+			border-radius: 5px;
+			padding-left: 10px;
+			height: 20px;
+			width: 350px;
+			outline: none;
+		}
+		button{
+			width: 150px;
+			height: 50px;
+			font-size: 20px;
+			font-weight: bold;
+			border-radius: 20px;
+			outline: none;
+		}
+		label{
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<center><section>
+			<center><h1>ENTER YOUR DETAILS HERE</h1></center>
+			<center>
+				<form method="POST" action="crop.php">
+
+					<label>ENTER YOUR FIRST NAME</label><br><input type="text" name="firstname" placeholder="Enter your first name" required><br><br>
+					<label>ENTER YOUR LAST NAME</label><br><input type="text" name="lastname" placeholder="Enter the last name"required><br><br>
+					<label>ENTER YOUR ADDRESS</label><br><input type="text" name="address" placeholder="Enter your address"required><br><br>
+					<label>ENTER YOUR DISTRICT</label><br><input type="text" name="district" placeholder="Enter your district" required><br><br>
+					<label>ENTER YOUR PHONE NUMBER</label><br><input type="number" name="phonenumber" placeholder="Enter your phone number" required><br><br>
+					<label>ENTER THE CROP NAME</label><br><input type="text" name="cropname" placeholder="Enter the crop name" required><br><br>
+					<label>ENTER THE QUANTITY</label><br><input type="number" name="quantity" placeholder="Enter crop quantity" required><br><br>
+					<label>ENTER THE COST </label><br><input type="number" name="cost" placeholder="Enter rate" required><br><br>
+					<button name="submits">SUBMIT</button>
+				</form>
+			</center>
+		</section></center>
+    </div>
+
+</body>
+</html>

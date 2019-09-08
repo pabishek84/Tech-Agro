@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TECH-AGRO</title>
+
+	<link rel="icon" type="image/ico"  href="company_logo.png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Nanum+Pen+Script&display=swap" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+
+	<!----nav bar--->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  	<!---nav bar end-->
+
+  	<style type="text/css">
+  		.head{
+  			text-align: center;
+  			margin-top: 60px;
+  		}
+  		#heading{
+  			font-family: 'Baloo Bhaina', cursive;
+  			font-size: 50px;
+  			color: white;
+  		}
+  		#subheading{
+  			font-family: 'Nanum Pen Script', cursive;
+  			font-size: 40px;
+  		}
+  		#know{
+  			color: red;
+  			text-decoration: none;
+  			background-color:#f2f2f2;
+  			border-radius: 20px;
+  			padding:2px 5px 2px 5px;
+  		}
+  		#learn{
+  			color: blue;
+  			text-decoration: none;
+  			background-color:#f2f2f2;
+  			border-radius: 20px;
+  			padding:2px 5px 2px 5px;
+  		}
+  		#produce{
+  			color: orange;
+  			text-decoration: none;
+  			background-color:#f2f2f2;
+  			border-radius: 20px;
+  			padding:2px 5px 2px 5px;
+  		}
+  		#gain{
+  			color: green;
+  			text-decoration: none;
+  			background-color:#f2f2f2;
+  			border-radius: 20px;
+  			padding:2px 5px 2px 5px;
+  		}
+  		#size{
+  			width: 150px;
+  			height: 150px;
+  			margin-left: 15px;
+
+  		}
+  		#center{
+  			text-align: center;
+  			font-size: 18px;
+  			font-weight: bold;
+  		}
+  		#crop_box{
+  			width: 200px;color:red;float: left;margin: 0px 15px 10px 100px;background-color:#e6ffe6;;border-radius: 55px;
+
+  		}
+  		#crop_name{
+  			color: red;
+  			text-decoration: none;
+  			font-family: 'Arial	', cursive;
+
+
+
+  		}
+  		h3{
+  			color: white;
+  		}
+  	</style>
+
+</head>
+<body background="bg.jpg" style="background-size: 150px;">
+
+	<!----nav bar----->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="index.html">TECH-AGRO</a>
+    		</div>
+    		<ul class="nav navbar-nav">
+		      <li class="active"><a href="index.html">Home</a></li>
+		      <li><a href="crops.html">Crop Details</a></li>
+          <li><a href="crop.php">Sell Crops</a></li>
+		      <li><a href="product.php">Crop Market</a></li>
+		    </ul>
+	  	</div>
+	</nav>
+
+	<div class="head">
+	    <h1 id="heading">CROP DETAILS</h1>
+	    <h3 id="subheading"><a id="know">KNOW</a> - <a id="learn">LEARN</a> - <a id="produce">PRODUCE</a> - <a id="gain">GAIN</a></h3>
+	</div>
+	<br>
+	<section class="crop_image_section">
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=brinjal"><img src="brinjal.png" alt="brinjal_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=brinjal">BRINJAL</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=banana"><img src="banana.png" alt="banana_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=banana">BANANA</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=ladiesfinger"><img src="ladiesfinger.png" alt="ladiesfinger_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=ladiesfinger">LADIES FINGER</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=cotton"><img src="cotton.png" alt="cotton_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=cotton">COTTON</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=turnmeric"><img src="turmeric.png" alt="turmeric_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=turnmeric">TURMERIC</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=Bitter Gourd"><img src="bittergaurd.png" alt="bittergaurd_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=Bitter Gourd">BITTER GAURD</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=chilli"><img src="chilli.png" alt="chilli_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=chilli">CHILLI</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=tomato"><img src="tomato.png" alt="tomato_image" id="size"></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=tomato">TOMATO</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=onion"><img src="onion.png" alt="onion_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=onion">ONION</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=groundnut"><img src="groundnut.png" alt="groundnut_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=groundnut">GROUNDNUT</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=paddy"><img src="paddy.png" alt="paddy_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=paddy">PADDY</a></h4>
+		</div>
+		<div id="crop_box" >
+			<a href="cropdetail.php?name=maize"><img src="maize.png" alt="maize_image" id="size" ></a>
+			<h4 id="center"><a id="crop_name" href="cropdetail.php?name=maize">MAIZE</a></h4>
+		</div>
+			
+	</section>
+</body>
+</html>

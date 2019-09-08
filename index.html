@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TECH-AGRO</title>
+
+	<link rel="icon" type="image/ico"  href="company_logo.png" />
+
+	<link href="https://fonts.googleapis.com/css?family=Concert+One|Covered+By+Your+Grace|Permanent+Marker|Rock+Salt&display=swap" rel="stylesheet">
+	<!----nav bar--->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  	<!---nav bar end-->
+
+	<style type="text/css">
+		.left_section{
+			width: 670px;
+			float: left;
+			margin-top: 140px;
+		}
+		#comp_logo{
+			float: left;
+			width: 250px;
+			height: 250px;			
+		}
+		
+		.left_text{
+			position: relative;
+			width: 660px;
+			height: 254px;
+		}
+		#comp_name{
+			float: left;	
+			margin-top: 50px;
+			line-height: 5px;
+		}
+		.left_text h1{
+			font-family: 'Permanent Marker', cursive;
+			color: green;
+			font-size: 60px;
+		}
+		.left_text h3{
+			font-family: 'Concert One', cursive;
+			color: orange;
+			font-size: 45px;
+		}
+
+		#slogan{
+			margin-left: 80px;
+			font-size: 30px;
+			font-family: 'Rock Salt', cursive;
+			font-weight:bold;
+			color: red;	
+			line-height: 50px;	
+		}
+		#break{
+			margin-left: 95px;
+			text-decoration: none;
+		}
+		#right_content{
+			float: right;
+			margin: 110px 10px 0px 0px;
+			font-size: 35px;
+			height: 350px;
+			width: 650px;
+			font-family: 'Covered By Your Grace', cursive;
+			color: #b300b3;
+		}
+		#admin_name{
+			color: #ff1a1a;
+			padding-left: 400px;
+			text-decoration: none;
+		}
+	</style>
+
+</head>
+<body>
+
+	<!----nav bar----->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="index.html">TECH-AGRO</a>
+    		</div>
+    		<ul class="nav navbar-nav">
+		      <li class="active"><a href="index.html">Home</a></li>
+		      <li><a href="crops.html">Crop Details</a></li>
+		      <li><a href="crop.php">Sell Crops</a></li>
+		      <li><a href="product.php">Crop Market</a></li>
+		    </ul>
+	  	</div>
+	</nav>
+
+
+	<!----LEFT SIDE DETAILS-------------->
+	<section class="left_section">
+		<div class="left_text">
+			<img src="company_logo.png" id="comp_logo">
+			<div  id="comp_name">
+				<h1>TECH-AGRO</h1>
+				<h3>farmer's companion</h3>
+			</div>
+		</div>
+		<h1 id="slogan">Farming is not just a job,<br><a id="break"> it’s a way of life.</a></h1>
+	</section>
+
+	<!----right side content---->
+	<h1 id="right_content">Agriculture represents a very important development in human history, considering the benefits of agriculture, its products have brought us since then, it is arguable that we wouldn't have developed to this stage without our involvement in agriculture.<br><br>This site helps farmers to gain new ideas for farming and advertise their products.<br><br><a id="admin_name">- tech-agro</a></h1>
+</body>
+</html>
